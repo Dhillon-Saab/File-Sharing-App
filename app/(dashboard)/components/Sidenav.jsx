@@ -4,6 +4,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 
 function SideNav() {
+
   const menuList = [
     {
       id: 1,
@@ -28,7 +29,7 @@ function SideNav() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <div className="shadow-sm border-r h-full">
+    <div className="shadow-sm border-r h-full bg-black">
       <div className="p-5 border-b">
         <svg
           id="logo-72"

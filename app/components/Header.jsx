@@ -5,7 +5,7 @@ function Header() {
   return (
       <header className="sticky py-4">
         <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8 border-b-2">
-          <a className="block text-teal-600 dark:text-teal-300" href="#">
+          <a className="block text-teal-600 dark:text-teal-300" href="/">
             <span className="sr-only">Home</span>
             <svg
               id="logo-72"
@@ -73,7 +73,7 @@ function Header() {
                 <div className="sm:flex sm:gap-4">
                 <a
                   className="block rounded-md bg-primary px-5 py-2.5 text-sm font-medium text-black transition hover:bg-blue-500 dark:hover:bg-blue-500"
-                  href="/login-in"
+                  href="/upload"
                 >
                   Login
                 </a>
