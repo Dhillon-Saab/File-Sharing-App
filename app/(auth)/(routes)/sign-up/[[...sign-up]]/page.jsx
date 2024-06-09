@@ -1,4 +1,4 @@
-import Constants from "@/app/utils/Constants";
+//import Constants from "@/app/utils/Constants";
 import { SignUp } from "@clerk/nextjs";
 
 export default function Page() {
@@ -35,7 +35,6 @@ export default function Page() {
           </h2>
 
           <p className="mt-4 leading-relaxed text-white/90">
-            {Constants.desc}
           </p>
         </div>
       </section>
